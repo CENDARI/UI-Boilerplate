@@ -42,6 +42,11 @@ section {
 	padding-bottom: 1em;
 }
 
+.content h2 {
+	font-weight: 700;
+	color: $brand-secondary;
+}
+
 .logo a {
 	background: url("../images/header_logo.png") top left no-repeat;
 	display: block;

@@ -93,6 +93,7 @@
                 <li class="divider" role="separator"></li>
                 <li><a href="#colours">Colours</a></li>
                 <li><a href="#css">CSS classes</a></li>
+                <li><a href="#grid">Grid</a></li>
                 <li><a href="#iconfonts">Icon fonts</a></li>
                 <li><a href="#typefonts">Type fonts</a></li>
               </ul>
@@ -108,6 +109,7 @@
           <div class="page-header">
             <h1>Miscellaneous <small>/ With <code>html</code> examples that you can copy and paste</small></h1>
           </div>
+
           <h2 id="colours">Colours</h2>
           <p><span class="glyphicon glyphicon-stop celest"></span> Light blue (Primary colour)</p>
           <ul>
@@ -124,29 +126,89 @@
             <li>RGB: <code>rgba(111, 105, 91, 1);</code></li>
             <li>Hex: <code>#6f695b;</code></li>
           </ul>
+
           <hr>
+
           <h2 id="css">CSS classes</h2>
           <div class="alert alert-warning" role="alert">
             <p><strong>Please note:</strong> this is a collection of some of the most commonly used CSS classes.<br>
             For a complete list please see your Sass files: <em>_bootstrap-variables.scss</em> and <em>styles.scss</em>.</p>
           </div>
+
           <hr>
+
+          <h2 id="grid">Grid</h2>
+
+          <hr>
+
           <h2 id="iconfonts">Icon fonts</h2>
           <p>Bootstrap uses Glyphicons by default and once this framework comes with the font.</p>
           <p>Icons are a powerful tool to give users hints at their first glance at the page.<br>
           Few and well positioned will enhance your message. Too many will only crowd your page. Use with care.</p>
           <p>More info on how to use Glyphicons with Bootstrap <a href="http://getbootstrap.com/components/#glyphicons">here</a>.</p>
+
           <h3>How to include icons</h3>
           <h4>Don't mix with other components</h4>
           <p>Icon classes cannot be directly combined with other components. They should not be used along with other classes on the same element. Instead, add a nested <code>&lt;span&gt;</code> and apply the icon classes to the <code>&lt;span&gt;</code>.</p>
           <h4>Only for use on empty elements</h4>
           <p>Icon classes should only be used on elements that contain no text content and have no child elements.</p>
+
+          <h3>Example</h3>
+
+          <p><a href="#"><span class="glyphicon glyphicon-comment" aria-hidden="true"></span> Leave a comment</a></p>
+
+          <h3>HTML <small>/ Code snippet</small></h3>
+<pre>
+&lt;p&gt;&lt;a href="#"&gt;&lt;span class="glyphicon glyphicon-comment" aria-hidden="true"&gt;&lt;/span&gt; Leave a comment&lt;/a&gt;&lt;/p&gt;
+</pre>
+
           <hr>
+
           <h2 id="typefonts">Type fonts</h2>
           <p><strong>Logo font:</strong> unknown</p>
           <p><strong>Body text:</strong></p>
           <p><code>font-family: "Open Sans", sans-serif;</code><br>
           <code>font-size: 16px;</code></p>
+
+          <h3>Link/Embed the font</h3>
+          <p>There are two main ways to display the font in your web pages:</p>
+          <ul>
+            <li>
+              <h4>Link directly to the Google APIs</h4>
+              <p>Add this code snippet between the <code>&lt;head&gt;</code><code>&lt;/head&gt;</code> tags in your HTML document.</p>
+              <pre>&lt;link href='http://fonts.googleapis.com/css?family=Open+Sans:400,400italic,700,700italic' rel='stylesheet' type='text/css'&gt;</pre>
+            </li>
+            <li>
+              <h4>CSS @font-face</h4>
+              <p>Download the font-family, add it to your project's font folder and create the appropriate CSS to point to it.</p>
+              <p><strong>Eg.</strong> Your project's structure:</p>
+              <div class="panel panel-default">
+                <div class="panel-body">
+                  <ul>
+                    <li><strong>root</strong>
+                      <ul>
+                        <li>/css
+                          <ul>
+                            <li>stylesheet.css</li>
+                          </ul>
+                        </li>
+                        <li>/fonts
+                          <ul>
+                            <li>/Open-Sans</li>
+                          </ul>
+                        </li>
+                        <li>/images</li>
+                        <li>/pages</li>
+                        <li>/scripts</li>
+                        <li>index.html</li>
+                      </ul>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </li>
+          </ul>
+
         </div>
       </div>
     </div>
