@@ -112,13 +112,18 @@
             <div class="page-header">
               <h1>Components <small>/ With <code>html</code> examples that you can copy and paste</small></h1>
             </div>
+
+            <div class="alert alert-warning" role="alert">
+              <p>For further customisation please refer to the <a href="http://getbootstrap.com/getting-started/">Bootstrap documentation</a>.</p>
+            </div>
+
             <h2 id="buttons">Buttons</h2>
             <p>Buttons can be displayed in different ways and they behave accordingly. For instance a <code>&lt;button&gt;</code> and <code>&lt;input&gt;</code> should be used within <code>&lt;form&gt;</code><code>&lt;/form&gt;</code> tags.</p>
             <p><code>&lt;a href="" class="btn btn-default" role="button"&gt;&lt;/a&gt;</code> will be styled as a button and have the ARIA role <em>button</em> assigned for accessibility purposes, but might behave slightly differently (responding to different key, for instance).</p>
             <p><strong>Rule of thumb:</strong> <em>buttons</em> are expected to do something, <em>a href links</em> are supposed to take you to another place.</p>
             <p>An <a href="https://css-tricks.com/use-button-element/">article on CSS Tricks</a> explains it better, should you wish to find out more about it.</p>
 
-            <h3>Your options</h3>
+            <h3>Options</h3>
 
             <ol>
               <li>
@@ -199,7 +204,6 @@
 &lt;!-- Deemphasize a button by making it look like a link while maintaining button behavior --&gt;
 &lt;button type="button" class="btn btn-link"&gt;Link&lt;/button&gt;
 </pre>
-
             <hr>
 
             <h2 id="carousel">Carousel</h2>
@@ -295,7 +299,38 @@
 </pre>
             <hr>
             <h2 id="dropdowns">Dropdowns</h2>
+
+            <p>Dropdowns are generally used in navigation to show sub-menu items, but they can also used to show an extra bit of content that doesn't need to be constantly displayed. Eg. The log in form at the top right of this page.</p>
+
+            <div class="dropdown">
+              <button class="btn btn-primary dropdown-toggle" type="button" id="dropdownMenuID" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+                Dropdown
+                <span class="caret"></span>
+              </button>
+              <ul class="dropdown-menu" aria-labelledby="dropdownMenuID">
+                <li><a href="#">Link 1</a></li>
+                <li><a href="#">Link 2</a></li>
+                <li><a href="#">Link 3</a></li>
+              </ul>
+            </div>
+            <h3>HTML <small>/ Code snippet</small></h3>
+<pre>
+&lt;div class="dropdown"&gt;
+  &lt;button class="btn btn-primary dropdown-toggle" type="button" id="<strong>dropdownMenuID</strong>" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true"&gt;
+    Dropdown
+    &lt;span class="caret"&gt;&lt;/span&gt;
+  &lt;/button&gt;
+  &lt;ul class="dropdown-menu" aria-labelledby="<strong>dropdownMenuID</strong>"&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Link 1&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Link 2&lt;/a&gt;&lt;/li&gt;
+    &lt;li&gt;&lt;a href="#"&gt;Link 3&lt;/a&gt;&lt;/li&gt;
+  &lt;/ul&gt;
+&lt;/div&gt;
+</pre>
+            <p><strong>Note</strong> how the <code>id="dropdownMenuID"</code> in the <code>&lt;button&gt;</code> matches the <code>aria-labelledby="dropdownMenuID"</code> in the <code>&lt;ul&gt;</code>.</p>
+
             <hr>
+
             <h2 id="forms">Forms</h2>
             <hr>
             <h2 id="gallery">Gallery</h2>
