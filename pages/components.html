@@ -489,13 +489,120 @@
             <hr>
             
             <h2 id="jumbotron">Jumbotron</h2>
+            <p>A component to showcase key content on your site.</p>
+
+            <div class="jumbotron">
+              <h1>Hello, world!</h1>
+              <p>This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.</p>
+              <p><a class="btn btn-primary btn-lg" href="#" role="button">Learn more</a></p>
+            </div>
+
+            <h3>HTML <small>/ Code snippet</small></h3>
+<pre>
+&lt;div class="jumbotron"&gt;
+  &lt;h1&gt;Hello, world!&lt;/h1&gt;
+  &lt;p&gt;This is a simple hero unit, a simple jumbotron-style component for calling extra attention to featured content or information.&lt;/p&gt;
+  &lt;p&gt;&lt;a class="btn btn-primary btn-lg" href="#" role="button"&gt;Learn more&lt;/a&gt;&lt;/p&gt;
+&lt;/div&gt;
+</pre>
             <hr>
+            
             <h2 id="navbars">Navbars</h2>
+
+            <nav class="navbar navbar-default">
+              <div class="container-fluid">
+                <!-- Brand and toggle get grouped for better mobile display -->
+                <div class="navbar-header">
+                  <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                  </button>
+                  <a class="navbar-brand" href="#">CENDARI</a>
+                </div>
+
+                <!-- Collect the nav links, forms, and other content for toggling -->
+                <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                  <ul class="nav navbar-nav">
+                    <li class="active"><a href="#">Page 1 <span class="sr-only">(current)</span></a></li>
+                    <li><a href="#">Page 2</a></li>
+                    <li class="dropdown">
+                      <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Dropdown <span class="caret"></span></a>
+                      <ul class="dropdown-menu">
+                        <li><a href="#">Action</a></li>
+                        <li><a href="#">Another action</a></li>
+                        <li><a href="#">Something else here</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">Separated link</a></li>
+                        <li role="separator" class="divider"></li>
+                        <li><a href="#">One more separated link</a></li>
+                      </ul>
+                    </li>
+                  </ul>
+                  <form class="navbar-form navbar-right" role="search">
+                    <div class="form-group">
+                      <input type="text" class="form-control" placeholder="Search">
+                    </div>
+                    <button type="submit" class="btn btn-default"><span class="glyphicon glyphicon-search"></span></button>
+                  </form>
+                </div><!-- /.navbar-collapse -->
+              </div><!-- /.container-fluid -->
+            </nav>
+
+            <h3>HTML <small>/ Code snippet</small></h3>
+
+<pre>
+&lt;nav class="navbar navbar-default"&gt;
+  &lt;div class="container-fluid"&gt;
+    &lt;!-- Brand and toggle get grouped for better mobile display --&gt;
+    &lt;div class="navbar-header"&gt;
+      &lt;button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false"&gt;
+        &lt;span class="sr-only"&gt;Toggle navigation&lt;/span&gt;
+        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+        &lt;span class="icon-bar"&gt;&lt;/span&gt;
+      &lt;/button&gt;
+      &lt;a class="navbar-brand" href="#"&gt;CENDARI&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;!-- Collect the nav links, forms, and other content for toggling --&gt;
+    &lt;div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1"&gt;
+      &lt;ul class="nav navbar-nav"&gt;
+        &lt;li class="active"&gt;&lt;a href="#"&gt;Page 1 &lt;span class="sr-only"&gt;(current)&lt;/span&gt;&lt;/a&gt;&lt;/li&gt;
+        &lt;li&gt;&lt;a href="#"&gt;Page 2&lt;/a&gt;&lt;/li&gt;
+        &lt;li class="dropdown"&gt;
+          &lt;a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false"&gt;Dropdown &lt;span class="caret"&gt;&lt;/span&gt;&lt;/a&gt;
+          &lt;ul class="dropdown-menu"&gt;
+            &lt;li&gt;&lt;a href="#"&gt;Action&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#"&gt;Another action&lt;/a&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#"&gt;Something else here&lt;/a&gt;&lt;/li&gt;
+            &lt;li role="separator" class="divider"&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#"&gt;Separated link&lt;/a&gt;&lt;/li&gt;
+            &lt;li role="separator" class="divider"&gt;&lt;/li&gt;
+            &lt;li&gt;&lt;a href="#"&gt;One more separated link&lt;/a&gt;&lt;/li&gt;
+          &lt;/ul&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+      &lt;form class="navbar-form navbar-right" role="search"&gt;
+        &lt;div class="form-group"&gt;
+          &lt;input type="text" class="form-control" placeholder="Search"&gt;
+        &lt;/div&gt;
+        &lt;button type="submit" class="btn btn-default"&gt;&lt;span class="glyphicon glyphicon-search"&gt;&lt;/span&gt;&lt;/button&gt;
+      &lt;/form&gt;
+    &lt;/div&gt;&lt;!-- /.navbar-collapse --&gt;
+  &lt;/div&gt;&lt;!-- /.container-fluid --&gt;
+&lt;/nav&gt;
+</pre>
+
             <hr>
+
             <h2 id="panels">Panels</h2>
             <hr>
+            
             <h2 id="tables">Tables</h2>
             <hr>
+            
             <h2 id="tooltips">Tooltips</h2>
           </div>
         </div>

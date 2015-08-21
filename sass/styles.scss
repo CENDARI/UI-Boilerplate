@@ -34,6 +34,10 @@ footer {
 	background: lighten($brand-secondary, 50%);
 }
 
+.navbar {
+	border-radius: 0;
+}
+
 footer {
 	border-top: 1px solid lighten($brand-secondary, 40%);
 }
