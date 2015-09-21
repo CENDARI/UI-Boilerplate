@@ -20,7 +20,7 @@
       <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
     <![endif]-->
   </head>
-  <body>
+  <body id="top">
     <header>
       <div class="container">
         <div class="row">
@@ -116,7 +116,28 @@
             <div class="alert alert-warning" role="alert">
               <p>For further customisation please refer to the <a href="http://getbootstrap.com/getting-started/">Bootstrap documentation</a>.</p>
             </div>
+          </div>
 
+          <div class="col-md-2">
+            <div data-spy="affix" data-offset-top="0" class="hidden-print hidden-xs hidden-sm">
+              <ul class="nav nav-stacked">
+                <li><a href="#buttons">Buttons</a></li>
+                <li><a href="#carousel">Carousel</a></li>
+                <li><a href="#dropdowns">Dropdowns</a></li>
+                <li><a href="#forms">Forms</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#jumbotron">Jumbotron</a></li>
+                <li><a href="#navbars">Navbars</a></li>
+                <li><a href="#panels">Panels</a></li>
+                <li><a href="#tables">Tables</a></li>
+                <li><a href="#tooltips">Tooltips</a></li>
+                <li></li>
+              </ul>
+              <a href="#top" class="btn btn-primary btn-xs btn-block"><span class="glyphicon glyphicon-triangle-top" aria-hidden="true"></span> Top</a>
+            </div>
+          </div>
+
+          <div class="col-md-10">
             <h2 id="buttons">Buttons</h2>
             <p>Buttons can be displayed in different ways and they behave accordingly. For instance a <code>&lt;button&gt;</code> and <code>&lt;input&gt;</code> should be used within <code>&lt;form&gt;</code><code>&lt;/form&gt;</code> tags.</p>
             <p><code>&lt;a href="" class="btn btn-default" role="button"&gt;&lt;/a&gt;</code> will be styled as a button and have the ARIA role <em>button</em> assigned for accessibility purposes, but might behave slightly differently (responding to different key, for instance).</p>
