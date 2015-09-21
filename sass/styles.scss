@@ -38,6 +38,10 @@ footer {
 	border-radius: 0;
 }
 
+.affix {
+	top: 0;
+}
+
 footer {
 	border-top: 1px solid lighten($brand-secondary, 40%);
 }
