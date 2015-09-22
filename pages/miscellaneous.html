@@ -140,7 +140,43 @@
             For a complete list please see your Sass files: <em>_bootstrap-variables.scss</em> and <em>styles.scss</em>.</p>
           </div>
 
-          <p><code>.pull-right</code> will cause an element to float right and text to be right aligned.</p>
+          <table class="table">
+            <tbody>
+              <tr>
+                <td><code>.pull-left</code></td><td>Floats an element to the left</td>
+              </tr>
+              <tr>
+                <td><code>.pull-right</code></td><td>Floats an element to the right</td>
+              </tr>
+              <tr>
+                <td><code>.center-block</code></td><td>Sets an element to display:block and center</td>
+              </tr>
+              <tr>
+                <td><code>.clearfix</code></td><td>Clears floats</td>
+              </tr>
+              <tr>
+                <td><code>.show</code></td><td>Forces an element to be shown</td>
+              </tr>
+              <tr>
+                <td><code>.hidden</code></td><td>Forces an element to be hidden</td>
+              </tr>
+              <tr>
+                <td><code>.sr-only</code></td><td>Hides an element to all devices except screen readers</td>
+              </tr>
+              <tr>
+                <td><code>.sr-only-focusable</code></td><td>Combine with <code>.sr-only</code> to show the element again when it is focused (e.g. by a keyboard-only user)</td>
+              </tr>
+              <tr>
+                <td><code>.text-hide</code></td><td>Helps replace an element's text content with a background image</td>
+              </tr>
+              <tr>
+                <td><code>.close</code></td><td>Indicates a close icon</td>
+              </tr>
+              <tr>
+                <td><code>.caret</code></td><td>Indicates dropdown functionality (will reverse automatically in dropup menus)</td>
+              </tr>
+            </tbody>
+          </table>
 
           <p><code>.row</code> attached to a <code>div</code> defines a row and it has to contain colums (see <a href="#grid">grid</a> below).</p>
 
@@ -154,6 +190,15 @@
           Bootstrap includes a responsive, mobile first fluid grid system that appropriately scales up to <strong>12 columns</strong> as the device or viewport size increases. It includes <a href="http://getbootstrap.com/css/#grid-example-basic">predefined classes</a> for easy layout options, as well as powerful <a href="http://getbootstrap.com/css/#grid-less">mixins for generating more semantic layouts</a>.
           <cite><small>Source: <a href="http://getbootstrap.com/css/#grid">http://getbootstrap.com/css/#grid</a></small></cite>
           </blockquote>
+
+          <h4>Grid classes (default values)</h4>
+
+          <ul>
+            <li><code>xs</code> (for phones &lt; 768px)</li>
+            <li><code>sm</code> (for tablets &ge; 768px )</li>
+            <li><code>md</code> (for desktops &ge; 992px)</li>
+            <li><code>lg</code> (for larger desktops &ge; 1200px)</li>
+          </ul>
 
           <h3>Example</h3>
           <div class="row table-docs">
