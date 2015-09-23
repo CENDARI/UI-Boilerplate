@@ -7851,7 +7851,7 @@ button.close {
 @media (min-width: 992px) {
   /* line 149, ../../../../../.rvm/gems/ruby-2.2.0/gems/bootstrap-sass-3.3.5.1/assets/stylesheets/bootstrap/_modals.scss */
   .modal-lg {
-    width: 90%;
+    width: 900px;
   }
 }
 /* line 7, ../../../../../.rvm/gems/ruby-2.2.0/gems/bootstrap-sass-3.3.5.1/assets/stylesheets/bootstrap/_tooltip.scss */
