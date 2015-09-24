@@ -97,7 +97,7 @@ footer p {
 }
 
 .date {
-	font-size: rem-calc(12px);
+	font-size: 14px;
 	font-style: italic;
 }
 
@@ -125,3 +125,7 @@ footer p {
 }
 
 /* 4. Images */
+
+.img-thumbnail {
+	margin-bottom: 10px;
+}

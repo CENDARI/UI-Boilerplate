@@ -8870,7 +8870,7 @@ footer p {
 
 /* line 99, ../sass/styles.scss */
 .date {
-  font-size: rem-calc(12px);
+  font-size: 14px;
   font-style: italic;
 }
 
@@ -8902,3 +8902,7 @@ footer p {
 }
 
 /* 4. Images */
+/* line 129, ../sass/styles.scss */
+.img-thumbnail {
+  margin-bottom: 10px;
+}
