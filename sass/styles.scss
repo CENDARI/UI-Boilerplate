@@ -11,8 +11,10 @@
 	Table of Contents
 
 	1.	Globals
+		1.1	Content
 	2.	Colours
 	3.	Dropdown forms
+	4.	Images
 ***/
 
 /* 1. Globals */
@@ -53,11 +55,6 @@ section {
 	padding-bottom: 1em;
 }
 
-.content h2 {
-	font-weight: 700;
-	color: $brand-secondary;
-}
-
 .logo a {
 	background: url("../images/header_logo.png") top left no-repeat;
 	display: block;
@@ -68,6 +65,40 @@ section {
 footer p {
 	margin: 3rem 0 2rem;
 	font-size: .875em;
+}
+
+/* 1.1 Content */
+
+.content h2 {
+	font-weight: 700;
+	color: $brand-secondary;
+}
+
+.blog-style li {
+	border-bottom: 1px solid #eee;
+	overflow: hidden !important;
+	margin-top: 1rem;
+	padding-bottom: 1rem;
+
+	h2 {
+		margin-top: 0;
+	}
+}
+
+.blog-style-thumb {
+	padding-right: 10px;
+	width: 20%;
+	float: left;
+}
+
+.blog-style-excerpt {
+	float: left;
+	width: 80%;
+}
+
+.date {
+	font-size: rem-calc(12px);
+	font-style: italic;
 }
 
 /* 2. Colours */
@@ -92,3 +123,5 @@ footer p {
 .drop-form * {
 	margin: .5em 0;
 }
+
+/* 4. Images */

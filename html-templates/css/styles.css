@@ -7851,7 +7851,7 @@ button.close {
 @media (min-width: 992px) {
   /* line 149, ../../../../../.rvm/gems/ruby-2.2.0/gems/bootstrap-sass-3.3.5.1/assets/stylesheets/bootstrap/_modals.scss */
   .modal-lg {
-    width: 900px;
+    width: 90%;
   }
 }
 /* line 7, ../../../../../.rvm/gems/ruby-2.2.0/gems/bootstrap-sass-3.3.5.1/assets/stylesheets/bootstrap/_tooltip.scss */
@@ -8773,60 +8773,56 @@ button.close {
 	Table of Contents
 
 	1.	Globals
+		1.1	Content
 	2.	Colours
 	3.	Dropdown forms
+	4.	Images
 ***/
 /* 1. Globals */
-/* line 21, ../sass/styles.scss */
+/* line 23, ../sass/styles.scss */
 body {
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 25, ../sass/styles.scss */
+/* line 27, ../sass/styles.scss */
 header,
 footer {
   min-height: 100px;
   padding: 1rem 0;
 }
 
-/* line 31, ../sass/styles.scss */
+/* line 33, ../sass/styles.scss */
 header,
 footer {
   background: #e7e6e2;
 }
 
-/* line 36, ../sass/styles.scss */
+/* line 38, ../sass/styles.scss */
 .navbar {
   border-radius: 0;
 }
 
-/* line 40, ../sass/styles.scss */
+/* line 42, ../sass/styles.scss */
 .affix {
   top: 0;
 }
 
-/* line 44, ../sass/styles.scss */
+/* line 46, ../sass/styles.scss */
 .affix-bottom {
   position: absolute;
 }
 
-/* line 48, ../sass/styles.scss */
+/* line 50, ../sass/styles.scss */
 footer {
   border-top: 1px solid #d0cdc6;
 }
 
-/* line 52, ../sass/styles.scss */
+/* line 54, ../sass/styles.scss */
 section {
   padding-bottom: 1em;
 }
 
-/* line 56, ../sass/styles.scss */
-.content h2 {
-  font-weight: 700;
-  color: #6f695b;
-}
-
-/* line 61, ../sass/styles.scss */
+/* line 58, ../sass/styles.scss */
 .logo a {
   background: url("../images/header_logo.png") top left no-repeat;
   display: block;
@@ -8834,35 +8830,75 @@ section {
   height: 83px;
 }
 
-/* line 68, ../sass/styles.scss */
+/* line 65, ../sass/styles.scss */
 footer p {
   margin: 3rem 0 2rem;
   font-size: .875em;
 }
 
+/* 1.1 Content */
+/* line 72, ../sass/styles.scss */
+.content h2 {
+  font-weight: 700;
+  color: #6f695b;
+}
+
+/* line 77, ../sass/styles.scss */
+.blog-style li {
+  border-bottom: 1px solid #eee;
+  overflow: hidden !important;
+  margin-top: 1rem;
+  padding-bottom: 1rem;
+}
+/* line 83, ../sass/styles.scss */
+.blog-style li h2 {
+  margin-top: 0;
+}
+
+/* line 88, ../sass/styles.scss */
+.blog-style-thumb {
+  padding-right: 10px;
+  width: 20%;
+  float: left;
+}
+
+/* line 94, ../sass/styles.scss */
+.blog-style-excerpt {
+  float: left;
+  width: 80%;
+}
+
+/* line 99, ../sass/styles.scss */
+.date {
+  font-size: rem-calc(12px);
+  font-style: italic;
+}
+
 /* 2. Colours */
-/* line 75, ../sass/styles.scss */
+/* line 106, ../sass/styles.scss */
 .celest {
   color: #88a2a9;
 }
 
-/* line 79, ../sass/styles.scss */
+/* line 110, ../sass/styles.scss */
 .bright-blue {
   color: #337ab7;
 }
 
-/* line 83, ../sass/styles.scss */
+/* line 114, ../sass/styles.scss */
 .gold {
   color: #6f695b;
 }
 
 /* 3. Dropdown forms */
-/* line 89, ../sass/styles.scss */
+/* line 120, ../sass/styles.scss */
 .drop-form {
   padding: .5em;
 }
 
-/* line 92, ../sass/styles.scss */
+/* line 123, ../sass/styles.scss */
 .drop-form * {
   margin: .5em 0;
 }
+
+/* 4. Images */

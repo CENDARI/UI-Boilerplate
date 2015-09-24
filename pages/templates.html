@@ -76,6 +76,7 @@
                 <li><a href="#content-page-fullwidth">Content page fullwidth</a></li>
                 <li><a href="#content-page-sidebar">Content page with sidebar</a></li>
                 <li><a href="#homepage">Homepage</a></li>
+                <li><a href="#search-results">Search results</a></li>
               </ul>
             </li>
             <li><a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Components <span class="caret"></span></a>
@@ -122,12 +123,12 @@
           <h2 id="archive-page">Archive page</h2>
 
           <!-- Button trigger modal -->
-          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#myModal">
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalArchive">
             <span class="glyphicon glyphicon-eye-open"></span> Preview
           </button>
 
           <!-- Modal -->
-          <div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal fade" id="ModalArchive" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
             <div class="modal-dialog modal-lg" role="document">
               <div class="modal-content">
                 <div class="modal-header">
@@ -188,17 +189,164 @@
                       </div><!--/.nav-collapse -->
                     </div>
                   </nav>
-                  <section class="content">
-                  <div class="container-fluid">
-                    <div class="row">
-                      <div class="col-md-12">
-                        <div class="page-header">
-                          <h1>Archive <small>/ 2012-2015</small></h1>
-                        </div>
 
+                  <section class="content">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="page-header">
+                            <h1>Archive <small>/ 2011-2015</small></h1>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-9">
+                          <ul class="list-unstyled blog-style">
+                            <li>
+                              <h2><a href="#">Archived post title</a></h2>
+                              <p class="date">27 September 2015</p>
+                              <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                              <a href="#" class="btn btn-primary pull-right">Read more</a>
+                            </li>
+                            <li>
+                              <h2><a href="#">Archived post title</a></h2>
+                              <p class="date">20 September 2015</p>
+                              <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt.</p>
+                              <a href="#" class="btn btn-primary pull-right">Read more</a>
+                            </li>
+                            <li>
+                              <h2><a href="#">Archived post title</a></h2>
+                              <p class="date">13 September 2015</p>
+                              <p>Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem. Ut enim ad minima veniam, quis nostrum exercitationem ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur?</p>
+                              <a href="#" class="btn btn-primary pull-right">Read more</a>
+                            </li>
+                          </ul>
+                          <nav>
+                            <ul class="pagination">
+                              <li class="disabled">
+                                <a href="#" aria-label="Previous">
+                                  <span aria-hidden="true">&laquo;</span>
+                                </a>
+                              </li>
+                              <li class="active"><a href="#">1</a></li>
+                              <li><a href="#">2</a></li>
+                              <li><a href="#">3</a></li>
+                              <li><a href="#">4</a></li>
+                              <li><a href="#">5</a></li>
+                              <li>
+                                <a href="#" aria-label="Next">
+                                  <span aria-hidden="true">&raquo;</span>
+                                </a>
+                              </li>
+                            </ul>
+                          </nav>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="panel panel-default">
+                            <div class="panel-heading">By Year</div>
+                            <div class="panel-body">
+                              <ul>
+                                <li>
+                                  <a data-toggle="collapse" href="#2015" aria-expanded="false" aria-controls="2015">2015</a>
+                                  <div class="collapse" id="2015">
+                                    <ul>
+                                      <li><a href="#">December</a></li>
+                                      <li><a href="#">November</a></li>
+                                      <li><a href="#">October</a></li>
+                                      <li><a href="#">September</a></li>
+                                      <li><a href="#">August</a></li>
+                                      <li><a href="#">July</a></li>
+                                      <li><a href="#">June</a></li>
+                                      <li><a href="#">May</a></li>
+                                      <li><a href="#">April</a></li>
+                                      <li><a href="#">March</a></li>
+                                      <li><a href="#">February</a></li>
+                                      <li><a href="#">January</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li>
+                                  <a data-toggle="collapse" href="#2014" aria-expanded="false" aria-controls="2014">2014</a>
+                                  <div class="collapse" id="2014">
+                                    <ul>
+                                      <li><a href="#">December</a></li>
+                                      <li><a href="#">November</a></li>
+                                      <li><a href="#">October</a></li>
+                                      <li><a href="#">September</a></li>
+                                      <li><a href="#">August</a></li>
+                                      <li><a href="#">July</a></li>
+                                      <li><a href="#">June</a></li>
+                                      <li><a href="#">May</a></li>
+                                      <li><a href="#">April</a></li>
+                                      <li><a href="#">March</a></li>
+                                      <li><a href="#">February</a></li>
+                                      <li><a href="#">January</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li>
+                                  <a data-toggle="collapse" href="#2013" aria-expanded="false" aria-controls="2013">2013</a>
+                                  <div class="collapse" id="2013">
+                                    <ul>
+                                      <li><a href="#">December</a></li>
+                                      <li><a href="#">November</a></li>
+                                      <li><a href="#">October</a></li>
+                                      <li><a href="#">September</a></li>
+                                      <li><a href="#">August</a></li>
+                                      <li><a href="#">July</a></li>
+                                      <li><a href="#">June</a></li>
+                                      <li><a href="#">May</a></li>
+                                      <li><a href="#">April</a></li>
+                                      <li><a href="#">March</a></li>
+                                      <li><a href="#">February</a></li>
+                                      <li><a href="#">January</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li>
+                                  <a data-toggle="collapse" href="#2012" aria-expanded="false" aria-controls="2012">2012</a>
+                                  <div class="collapse" id="2012">
+                                    <ul>
+                                      <li><a href="#">December</a></li>
+                                      <li><a href="#">November</a></li>
+                                      <li><a href="#">October</a></li>
+                                      <li><a href="#">September</a></li>
+                                      <li><a href="#">August</a></li>
+                                      <li><a href="#">July</a></li>
+                                      <li><a href="#">June</a></li>
+                                      <li><a href="#">May</a></li>
+                                      <li><a href="#">April</a></li>
+                                      <li><a href="#">March</a></li>
+                                      <li><a href="#">February</a></li>
+                                      <li><a href="#">January</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li>
+                                  <a data-toggle="collapse" href="#2011" aria-expanded="false" aria-controls="2011">2011</a>
+                                  <div class="collapse" id="2011">
+                                    <ul>
+                                      <li><a href="#">December</a></li>
+                                      <li><a href="#">November</a></li>
+                                      <li><a href="#">October</a></li>
+                                      <li><a href="#">September</a></li>
+                                      <li><a href="#">August</a></li>
+                                      <li><a href="#">July</a></li>
+                                      <li><a href="#">June</a></li>
+                                      <li><a href="#">May</a></li>
+                                      <li><a href="#">April</a></li>
+                                      <li><a href="#">March</a></li>
+                                      <li><a href="#">February</a></li>
+                                      <li><a href="#">January</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
                       </div>
                     </div>
-                  </div>
                   </section>
                   <footer>
                     <div class="container-fluid">
@@ -225,6 +373,290 @@
 
           <h2 id="blog-page">Blog page</h2>
 
+          <!-- Button trigger modal -->
+          <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#ModalBlog">
+            <span class="glyphicon glyphicon-eye-open"></span> Preview
+          </button>
+
+          <!-- Modal -->
+          <div class="modal fade" id="ModalBlog" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                <div class="modal-header">
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close"><span aria-hidden="true">&times;</span></button>
+                  <h4 class="modal-title" id="myModalLabel">Blog page template preview</h4>
+                </div>
+                <div class="modal-body">
+
+                  <header>
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-md-9">
+                          <div class="logo">
+                            <a href="#">
+                            </a>
+                          </div>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="dropdown pull-right">
+                            <button class="btn btn-default dropdown-toggle" type="button" id="loginButton" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">Log in</button>
+                            <div class="dropdown-menu drop-form" aria-labelledby="loginButton">
+                              <form>
+                                <input type="text" class="form-control" placeholder="Username">
+                                <input type="password" class="form-control" placeholder="Password">
+                                <button class="btn btn-primary btn-block">Log in</button>
+                              </form>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </header>
+                  
+                  <!-- Navbar -->
+                  <nav class="navbar navbar-inverse">
+                    <div class="container-fluid">
+                      <div class="navbar-header">
+                        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar" aria-expanded="false" aria-controls="navbar">
+                          <span class="sr-only">Toggle navigation</span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                          <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#">CENDARI</a>
+                      </div>
+                      <div id="navbar" class="navbar-collapse collapse">
+                        <ul class="nav navbar-nav">
+                          <li>
+                            <a href="#">Item 1</a>
+                          </li>
+                          <li>
+                            <a href="#">Item 2</a>
+                          </li>
+                          <li>
+                            <a href="#">Item 3</a>
+                          </li>
+                        </ul>
+                      </div><!--/.nav-collapse -->
+                    </div>
+                  </nav>
+
+                  <section class="content">
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-md-12">
+                          <div class="page-header">
+                            <h1>Blog</h1>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="row">
+                        <div class="col-md-9">
+                          <ul class="list-unstyled blog-style">
+                            <li>
+                              <div class="blog-style-thumb">
+                                <img src="../images/Placeholder-square.svg" alt="Thumbnail" class="img-thumbnail">
+                              </div>
+                              <div class="blog-style-excerpt">
+                                <h2><a href="#">Blog post title</a></h2>
+                                <p class="date">19 September 2015</p>
+                                <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+                                <a href="#" class="btn btn-primary pull-right">Read more</a>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="blog-style-thumb">
+                                <img src="../images/Placeholder-square.svg" alt="Thumbnail" class="img-thumbnail">
+                              </div>
+                              <div class="blog-style-excerpt">
+                                <h2><a href="#">Blog post title</a></h2>
+                                <p class="date">17 August 2015</p>
+                                <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.</p>
+                                <a href="#" class="btn btn-primary pull-right">Read more</a>
+                              </div>
+                            </li>
+                            <li>
+                              <div class="blog-style-thumb">
+                                <img src="../images/Placeholder-square.svg" alt="Thumbnail" class="img-thumbnail">
+                              </div>
+                              <div class="blog-style-excerpt">
+                                <h2><a href="#">Blog post title</a></h2>
+                                <p class="date">18 July 2015</p>
+                                <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga.</p>
+                                <a href="#" class="btn btn-primary pull-right">Read more</a>
+                              </div>
+                            </li>
+                          </ul>
+                          <nav>
+                            <ul class="pagination">
+                              <li class="disabled">
+                                <a href="#" aria-label="Previous">
+                                  <span aria-hidden="true">&laquo;</span>
+                                </a>
+                              </li>
+                              <li class="active"><a href="#">1</a></li>
+                              <li><a href="#">2</a></li>
+                              <li><a href="#">3</a></li>
+                              <li><a href="#">4</a></li>
+                              <li><a href="#">5</a></li>
+                              <li>
+                                <a href="#" aria-label="Next">
+                                  <span aria-hidden="true">&raquo;</span>
+                                </a>
+                              </li>
+                            </ul>
+                          </nav>
+                        </div>
+                        <div class="col-md-3">
+                          <div class="panel panel-default">
+                            <div class="panel-heading">Latest posts</div>
+                            <div class="panel-body">
+                              <ul class="list-unstyled">
+                                <li>
+                                  <h3><a href="#">Blog post title</a></h3>
+                                  <p class="date">19 September 2015</p>
+                                  <p>Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris [...]</p>
+                                </li>
+                                <li>
+                                  <h3><a href="#">Blog post title</a></h3>
+                                  <p class="date">17 August 2015</p>
+                                  <p>Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit [...]</p>
+                                </li>
+                                <li>
+                                  <h3><a href="#">Blog post title</a></h3>
+                                  <p class="date">18 July 2015</p>
+                                  <p>At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis [...]</p>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                          <div class="panel panel-default">
+                            <div class="panel-heading">By Year</div>
+                            <div class="panel-body">
+                              <ul>
+                                <li>
+                                  <a data-toggle="collapse" href="#2015" aria-expanded="false" aria-controls="2015">2015</a>
+                                  <div class="collapse" id="2015">
+                                    <ul>
+                                      <li><a href="#">December</a></li>
+                                      <li><a href="#">November</a></li>
+                                      <li><a href="#">October</a></li>
+                                      <li><a href="#">September</a></li>
+                                      <li><a href="#">August</a></li>
+                                      <li><a href="#">July</a></li>
+                                      <li><a href="#">June</a></li>
+                                      <li><a href="#">May</a></li>
+                                      <li><a href="#">April</a></li>
+                                      <li><a href="#">March</a></li>
+                                      <li><a href="#">February</a></li>
+                                      <li><a href="#">January</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li>
+                                  <a data-toggle="collapse" href="#2014" aria-expanded="false" aria-controls="2014">2014</a>
+                                  <div class="collapse" id="2014">
+                                    <ul>
+                                      <li><a href="#">December</a></li>
+                                      <li><a href="#">November</a></li>
+                                      <li><a href="#">October</a></li>
+                                      <li><a href="#">September</a></li>
+                                      <li><a href="#">August</a></li>
+                                      <li><a href="#">July</a></li>
+                                      <li><a href="#">June</a></li>
+                                      <li><a href="#">May</a></li>
+                                      <li><a href="#">April</a></li>
+                                      <li><a href="#">March</a></li>
+                                      <li><a href="#">February</a></li>
+                                      <li><a href="#">January</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li>
+                                  <a data-toggle="collapse" href="#2013" aria-expanded="false" aria-controls="2013">2013</a>
+                                  <div class="collapse" id="2013">
+                                    <ul>
+                                      <li><a href="#">December</a></li>
+                                      <li><a href="#">November</a></li>
+                                      <li><a href="#">October</a></li>
+                                      <li><a href="#">September</a></li>
+                                      <li><a href="#">August</a></li>
+                                      <li><a href="#">July</a></li>
+                                      <li><a href="#">June</a></li>
+                                      <li><a href="#">May</a></li>
+                                      <li><a href="#">April</a></li>
+                                      <li><a href="#">March</a></li>
+                                      <li><a href="#">February</a></li>
+                                      <li><a href="#">January</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li>
+                                  <a data-toggle="collapse" href="#2012" aria-expanded="false" aria-controls="2012">2012</a>
+                                  <div class="collapse" id="2012">
+                                    <ul>
+                                      <li><a href="#">December</a></li>
+                                      <li><a href="#">November</a></li>
+                                      <li><a href="#">October</a></li>
+                                      <li><a href="#">September</a></li>
+                                      <li><a href="#">August</a></li>
+                                      <li><a href="#">July</a></li>
+                                      <li><a href="#">June</a></li>
+                                      <li><a href="#">May</a></li>
+                                      <li><a href="#">April</a></li>
+                                      <li><a href="#">March</a></li>
+                                      <li><a href="#">February</a></li>
+                                      <li><a href="#">January</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                                <li>
+                                  <a data-toggle="collapse" href="#2011" aria-expanded="false" aria-controls="2011">2011</a>
+                                  <div class="collapse" id="2011">
+                                    <ul>
+                                      <li><a href="#">December</a></li>
+                                      <li><a href="#">November</a></li>
+                                      <li><a href="#">October</a></li>
+                                      <li><a href="#">September</a></li>
+                                      <li><a href="#">August</a></li>
+                                      <li><a href="#">July</a></li>
+                                      <li><a href="#">June</a></li>
+                                      <li><a href="#">May</a></li>
+                                      <li><a href="#">April</a></li>
+                                      <li><a href="#">March</a></li>
+                                      <li><a href="#">February</a></li>
+                                      <li><a href="#">January</a></li>
+                                    </ul>
+                                  </div>
+                                </li>
+                              </ul>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                    </div>
+                  </section>
+                  <footer>
+                    <div class="container-fluid">
+                      <div class="row">
+                        <div class="col-md-9">
+                          <p>The CENDARI project is funded by the European Commission under the 7th Framework Programme</p>
+                        </div>
+                        <div class="col-md-3">
+                          <img src="../images/funding.jpg" alt="European Commission" class="pull-right">
+                        </div>
+                      </div>
+                    </div>
+                  </footer>
+
+                </div>
+                <div class="modal-footer">
+                  <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+                </div>
+              </div>
+            </div>
+          </div>
+
           <a href="" class="btn btn-primary"><small><span class="glyphicon glyphicon-download-alt"></span></small> Download</a>
 
           <h2 id="blog-post-page">Blog post page</h2>
@@ -240,6 +672,10 @@
           <a href="" class="btn btn-primary"><small><span class="glyphicon glyphicon-download-alt"></span></small> Download</a>
 
           <h2 id="homepage">Homepage</h2>
+
+          <a href="" class="btn btn-primary"><small><span class="glyphicon glyphicon-download-alt"></span></small> Download</a>
+
+          <h2 id="search-results">Search results</h2>
 
           <a href="" class="btn btn-primary"><small><span class="glyphicon glyphicon-download-alt"></span></small> Download</a>
         </div>
