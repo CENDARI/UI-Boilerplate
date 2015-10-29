@@ -5,3 +5,12 @@
 	background: #ccc;
 	margin-bottom: .5rem;
 }
+
+.screenshot {
+	img {
+		max-width: 600px;
+		padding: 10px;
+		border: 1px solid #d8d8d8;
+	}
+	margin: 2rem 0 4rem;
+}
