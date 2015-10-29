@@ -83,6 +83,7 @@
               <ul class="dropdown-menu">
                 <li><a href="components.html">Kitchen sink</a></li>
                 <li class="divider" role="separator"></li>
+                <li><a href="#breadcrumbs">Breadcrumbs</a></li>
                 <li><a href="#buttons">Buttons</a></li>
                 <li><a href="#carousel">Carousel</a></li>
                 <li><a href="#dropdowns">Dropdowns</a></li>
@@ -126,6 +127,7 @@
           <div class="col-md-2">
             <div data-spy="affix" data-offset-top="400" data-offset-bottom="150" class="hidden-print hidden-xs hidden-sm">
               <ul class="nav nav-stacked">
+                <li><a href="#breadcrumbs">Breadcrumbs</a></li>
                 <li><a href="#buttons">Buttons</a></li>
                 <li><a href="#carousel">Carousel</a></li>
                 <li><a href="#dropdowns">Dropdowns</a></li>
@@ -143,6 +145,33 @@
           </div>
 
           <div class="col-md-10">
+            <h2 id="breadcrumbs">Breadcrumbs</h2>
+
+            <blockquote>
+              <h3>Indicate the current page's location within a navigational hierarchy.</h3>
+              <p>Separators are automatically added in CSS through <code>:before</code> and <code>content</code>.</p>
+              <cite><small>Source: <a href="http://getbootstrap.com/components/#breadcrumbs" target="_blank">http://getbootstrap.com/components/#breadcrumbs</a></small></cite>
+            </blockquote>
+
+            <h3>Example</h3>
+
+            <ol class="breadcrumb">
+              <li><a href="#">Home</a></li>
+              <li><a href="#">Components</a></li>
+              <li class="active">Breadcrumbs</li>
+            </ol>
+
+            <h3>HTML <small>/ Code snippet</small></h3>
+<pre>
+&lt;ol class="breadcrumb"&gt;
+  &lt;li&gt;&lt;a href="#"&gt;Home&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href="#"&gt;Components&lt;/a&gt;&lt;/li&gt;
+  &lt;li class="active"&gt;Breadcrumbs&lt;/li&gt;
+&lt;/ol&gt;
+</pre>
+
+            <hr>
+
             <h2 id="buttons">Buttons</h2>
             <p>Buttons can be displayed in different ways and they behave accordingly. For instance a <code>&lt;button&gt;</code> and <code>&lt;input&gt;</code> should be used within <code>&lt;form&gt;</code><code>&lt;/form&gt;</code> tags.</p>
             <p><code>&lt;a href="" class="btn btn-default" role="button"&gt;&lt;/a&gt;</code> will be styled as a button and have the ARIA role <em>button</em> assigned for accessibility purposes, but might behave slightly differently (responding to different key, for instance).</p>
