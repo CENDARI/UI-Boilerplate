@@ -18,6 +18,7 @@
 	4.	Images
 		4.1	Gallery
 	5.	Jumbotron
+	6.	Sidebar
 ***/
 
 /* 1. Globals */
@@ -140,6 +141,10 @@ h6 {
 
 /* 4. Images */
 
+img {
+	max-width: 100%;
+}
+
 .img-small {
 	max-width: 20%;
 }
@@ -182,6 +187,15 @@ figcaption,
 	color: #666;
 }
 
+figure {
+	padding: .5rem;
+	border: 1px solid lighten($brand-secondary, 50%);
+	margin: 2rem 0;
+	figcaption {
+		margin-top: 1rem;
+	}
+}
+
 /* 4.1 Gallery */
 
 .gallery {
@@ -194,4 +208,18 @@ figcaption,
 /* 5. Jumbotron */
 .jumbotron {
 	margin-top: 2rem;
+}
+
+/* Sidebar */
+
+.sidebar {
+	padding: 0 1rem 1rem;
+}
+
+.sidebar .nav li {
+	border-bottom: 1px solid lighten($brand-secondary, 50%);
+}
+
+.sidebar h3:first-child {
+	margin-top: 1.875em;
 }

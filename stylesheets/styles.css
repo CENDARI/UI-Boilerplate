@@ -8780,52 +8780,53 @@ button.close {
 	4.	Images
 		4.1	Gallery
 	5.	Jumbotron
+	6.	Sidebar
 ***/
 /* 1. Globals */
-/* line 26, ../sass/styles.scss */
+/* line 27, ../sass/styles.scss */
 body {
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 30, ../sass/styles.scss */
+/* line 31, ../sass/styles.scss */
 header,
 footer {
   min-height: 100px;
   padding: 1rem 0;
 }
 
-/* line 36, ../sass/styles.scss */
+/* line 37, ../sass/styles.scss */
 header,
 footer {
   background: #e7e6e2;
 }
 
-/* line 41, ../sass/styles.scss */
+/* line 42, ../sass/styles.scss */
 .navbar {
   border-radius: 0;
 }
 
-/* line 45, ../sass/styles.scss */
+/* line 46, ../sass/styles.scss */
 .affix {
   top: 0;
 }
 
-/* line 49, ../sass/styles.scss */
+/* line 50, ../sass/styles.scss */
 .affix-bottom {
   position: absolute;
 }
 
-/* line 53, ../sass/styles.scss */
+/* line 54, ../sass/styles.scss */
 footer {
   border-top: 1px solid #d0cdc6;
 }
 
-/* line 57, ../sass/styles.scss */
+/* line 58, ../sass/styles.scss */
 section {
   padding-bottom: 1em;
 }
 
-/* line 61, ../sass/styles.scss */
+/* line 62, ../sass/styles.scss */
 .logo a {
   background: url("../images/header_logo.png") top left no-repeat;
   display: block;
@@ -8833,52 +8834,52 @@ section {
   height: 83px;
 }
 
-/* line 68, ../sass/styles.scss */
+/* line 69, ../sass/styles.scss */
 footer p {
   margin: 3rem 0 2rem;
   font-size: .875em;
 }
 
 /* 1.1 Content */
-/* line 75, ../sass/styles.scss */
+/* line 76, ../sass/styles.scss */
 .content h2 {
   font-weight: 700;
   color: #6f695b;
 }
 
-/* line 80, ../sass/styles.scss */
+/* line 81, ../sass/styles.scss */
 .blog-style li {
   border-bottom: 1px solid #eee;
   overflow: hidden !important;
   margin-top: 1rem;
   padding-bottom: 1rem;
 }
-/* line 86, ../sass/styles.scss */
+/* line 87, ../sass/styles.scss */
 .blog-style li h2 {
   margin-top: 0;
 }
 
-/* line 91, ../sass/styles.scss */
+/* line 92, ../sass/styles.scss */
 .blog-style-thumb {
   padding-right: 10px;
   width: 20%;
   float: left;
 }
 
-/* line 97, ../sass/styles.scss */
+/* line 98, ../sass/styles.scss */
 .blog-style-excerpt {
   float: left;
   width: 80%;
 }
 
-/* line 102, ../sass/styles.scss */
+/* line 103, ../sass/styles.scss */
 .date {
   font-size: 14px;
   font-style: italic;
 }
 
 /* 1.2 Headings */
-/* line 109, ../sass/styles.scss */
+/* line 110, ../sass/styles.scss */
 h1,
 h2,
 h3,
@@ -8889,75 +8890,80 @@ h6 {
 }
 
 /* 2. Colours */
-/* line 120, ../sass/styles.scss */
+/* line 121, ../sass/styles.scss */
 .celest {
   color: #88a2a9;
 }
 
-/* line 124, ../sass/styles.scss */
+/* line 125, ../sass/styles.scss */
 .bright-blue {
   color: #337ab7;
 }
 
-/* line 128, ../sass/styles.scss */
+/* line 129, ../sass/styles.scss */
 .gold {
   color: #6f695b;
 }
 
 /* 3. Dropdown forms */
-/* line 134, ../sass/styles.scss */
+/* line 135, ../sass/styles.scss */
 .drop-form {
   padding: .5em;
 }
 
-/* line 137, ../sass/styles.scss */
+/* line 138, ../sass/styles.scss */
 .drop-form * {
   margin: .5em 0;
 }
 
 /* 4. Images */
-/* line 143, ../sass/styles.scss */
+/* line 144, ../sass/styles.scss */
+img {
+  max-width: 100%;
+}
+
+/* line 148, ../sass/styles.scss */
 .img-small {
   max-width: 20%;
 }
 
-/* line 147, ../sass/styles.scss */
+/* line 152, ../sass/styles.scss */
 .img-medium {
   max-width: 35%;
 }
 
-/* line 151, ../sass/styles.scss */
+/* line 156, ../sass/styles.scss */
 .img-large {
   max-width: 50%;
 }
 
-/* line 155, ../sass/styles.scss */
+/* line 160, ../sass/styles.scss */
 .img-small img,
 .img-medium img,
 .img-large img {
   max-width: 100%;
 }
 
-/* line 161, ../sass/styles.scss */
+/* line 166, ../sass/styles.scss */
 .img-small.pull-left,
 .img-medium.pull-left,
 .img-large.pull-left {
   padding: 0 2rem 1rem 0;
 }
 
-/* line 167, ../sass/styles.scss */
+/* line 172, ../sass/styles.scss */
 .img-small.pull-right,
 .img-medium.pull-right,
 .img-large.pull-right {
   padding: 0 0 1rem 2rem;
 }
 
-/* line 173, ../sass/styles.scss */
+/* line 178, ../sass/styles.scss */
 .img-thumbnail {
   margin-bottom: 10px;
 }
 
-/* line 177, ../sass/styles.scss */
+/* line 182, ../sass/styles.scss */
 caption,
 figcaption,
 .caption {
@@ -8966,8 +8972,19 @@ figcaption,
   color: #666;
 }
 
+/* line 190, ../sass/styles.scss */
+figure {
+  padding: .5rem;
+  border: 1px solid #e7e6e2;
+  margin: 2rem 0;
+}
+/* line 194, ../sass/styles.scss */
+figure figcaption {
+  margin-top: 1rem;
+}
+
 /* 4.1 Gallery */
-/* line 187, ../sass/styles.scss */
+/* line 201, ../sass/styles.scss */
 .gallery {
   margin-top: 2.5rem;
   margin-bottom: 1rem;
@@ -8976,7 +8993,23 @@ figcaption,
 }
 
 /* 5. Jumbotron */
-/* line 195, ../sass/styles.scss */
+/* line 209, ../sass/styles.scss */
 .jumbotron {
   margin-top: 2rem;
+}
+
+/* Sidebar */
+/* line 215, ../sass/styles.scss */
+.sidebar {
+  padding: 0 1rem 1rem;
+}
+
+/* line 219, ../sass/styles.scss */
+.sidebar .nav li {
+  border-bottom: 1px solid #e7e6e2;
+}
+
+/* line 223, ../sass/styles.scss */
+.sidebar h3:first-child {
+  margin-top: 1.875em;
 }
