@@ -10,15 +10,17 @@
 /***
 	Table of Contents
 
-	1.	Globals
+	1.		Globals
 		1.1	Content
-		1.2 Headings
-	2.	Colours
-	3.	Dropdown forms
-	4.	Images
-		4.1	Gallery
-	5.	Jumbotron
-	6.	Sidebar
+		1.2	Headings
+	2.		Colours
+	3.		Dropdown forms
+	4.		Facets and filters
+	5.		Images
+		5.1	Gallery
+	6.		Jumbotron
+	7.		Search
+	8.		Sidebar
 ***/
 
 /* 1. Globals */
@@ -139,7 +141,33 @@ h6 {
 	margin: .5em 0;
 }
 
-/* 4. Images */
+/* 4. Facets and filters */
+
+.facets {
+	margin: .5rem 0 1rem;
+	a {
+		display: block;
+	}
+	ul li {
+		border-bottom: 1px solid lighten($brand-secondary, 50%);
+		padding-top: .5rem;
+		padding-bottom: .5rem;
+	}
+}
+
+.applied-filters {
+	.badge {
+		font-weight: normal;
+		a {
+			color: white;
+		}
+	}
+	li {
+		border-bottom: none !important;
+	}
+}
+
+/* 5. Images */
 
 img {
 	max-width: 100%;
@@ -196,7 +224,7 @@ figure {
 	}
 }
 
-/* 4.1 Gallery */
+/* 5.1 Gallery */
 
 .gallery {
 	margin-top: 2.5rem;
@@ -205,12 +233,22 @@ figure {
 	clear: both;
 }
 
-/* 5. Jumbotron */
+/* 6. Jumbotron */
+
 .jumbotron {
 	margin-top: 2rem;
 }
 
-/* Sidebar */
+/* 7. Search */
+
+.search-results ul,
+.search-results ol {
+	li {
+		border-bottom: 1px solid lighten($brand-secondary, 50%);
+	}
+}
+
+/* 8. Sidebar */
 
 .sidebar {
 	padding: 0 1rem 1rem;

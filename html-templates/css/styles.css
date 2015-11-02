@@ -8772,61 +8772,63 @@ button.close {
 /***
 	Table of Contents
 
-	1.	Globals
+	1.		Globals
 		1.1	Content
-		1.2 Headings
-	2.	Colours
-	3.	Dropdown forms
-	4.	Images
-		4.1	Gallery
-	5.	Jumbotron
-	6.	Sidebar
+		1.2	Headings
+	2.		Colours
+	3.		Dropdown forms
+	4.		Facets and filters
+	5.		Images
+		5.1	Gallery
+	6.		Jumbotron
+	7.		Search
+	8.		Sidebar
 ***/
 /* 1. Globals */
-/* line 27, ../sass/styles.scss */
+/* line 29, ../sass/styles.scss */
 body {
   font-family: "Open Sans", sans-serif;
 }
 
-/* line 31, ../sass/styles.scss */
+/* line 33, ../sass/styles.scss */
 header,
 footer {
   min-height: 100px;
   padding: 1rem 0;
 }
 
-/* line 37, ../sass/styles.scss */
+/* line 39, ../sass/styles.scss */
 header,
 footer {
   background: #e7e6e2;
 }
 
-/* line 42, ../sass/styles.scss */
+/* line 44, ../sass/styles.scss */
 .navbar {
   border-radius: 0;
 }
 
-/* line 46, ../sass/styles.scss */
+/* line 48, ../sass/styles.scss */
 .affix {
   top: 0;
 }
 
-/* line 50, ../sass/styles.scss */
+/* line 52, ../sass/styles.scss */
 .affix-bottom {
   position: absolute;
 }
 
-/* line 54, ../sass/styles.scss */
+/* line 56, ../sass/styles.scss */
 footer {
   border-top: 1px solid #d0cdc6;
 }
 
-/* line 58, ../sass/styles.scss */
+/* line 60, ../sass/styles.scss */
 section {
   padding-bottom: 1em;
 }
 
-/* line 62, ../sass/styles.scss */
+/* line 64, ../sass/styles.scss */
 .logo a {
   background: url("../images/header_logo.png") top left no-repeat;
   display: block;
@@ -8834,52 +8836,52 @@ section {
   height: 83px;
 }
 
-/* line 69, ../sass/styles.scss */
+/* line 71, ../sass/styles.scss */
 footer p {
   margin: 3rem 0 2rem;
   font-size: .875em;
 }
 
 /* 1.1 Content */
-/* line 76, ../sass/styles.scss */
+/* line 78, ../sass/styles.scss */
 .content h2 {
   font-weight: 700;
   color: #6f695b;
 }
 
-/* line 81, ../sass/styles.scss */
+/* line 83, ../sass/styles.scss */
 .blog-style li {
   border-bottom: 1px solid #eee;
   overflow: hidden !important;
   margin-top: 1rem;
   padding-bottom: 1rem;
 }
-/* line 87, ../sass/styles.scss */
+/* line 89, ../sass/styles.scss */
 .blog-style li h2 {
   margin-top: 0;
 }
 
-/* line 92, ../sass/styles.scss */
+/* line 94, ../sass/styles.scss */
 .blog-style-thumb {
   padding-right: 10px;
   width: 20%;
   float: left;
 }
 
-/* line 98, ../sass/styles.scss */
+/* line 100, ../sass/styles.scss */
 .blog-style-excerpt {
   float: left;
   width: 80%;
 }
 
-/* line 103, ../sass/styles.scss */
+/* line 105, ../sass/styles.scss */
 .date {
   font-size: 14px;
   font-style: italic;
 }
 
 /* 1.2 Headings */
-/* line 110, ../sass/styles.scss */
+/* line 112, ../sass/styles.scss */
 h1,
 h2,
 h3,
@@ -8890,80 +8892,109 @@ h6 {
 }
 
 /* 2. Colours */
-/* line 121, ../sass/styles.scss */
+/* line 123, ../sass/styles.scss */
 .celest {
   color: #88a2a9;
 }
 
-/* line 125, ../sass/styles.scss */
+/* line 127, ../sass/styles.scss */
 .bright-blue {
   color: #337ab7;
 }
 
-/* line 129, ../sass/styles.scss */
+/* line 131, ../sass/styles.scss */
 .gold {
   color: #6f695b;
 }
 
 /* 3. Dropdown forms */
-/* line 135, ../sass/styles.scss */
+/* line 137, ../sass/styles.scss */
 .drop-form {
   padding: .5em;
 }
 
-/* line 138, ../sass/styles.scss */
+/* line 140, ../sass/styles.scss */
 .drop-form * {
   margin: .5em 0;
 }
 
-/* 4. Images */
-/* line 144, ../sass/styles.scss */
+/* 4. Facets and filters */
+/* line 146, ../sass/styles.scss */
+.facets {
+  margin: .5rem 0 1rem;
+}
+/* line 148, ../sass/styles.scss */
+.facets a {
+  display: block;
+}
+/* line 151, ../sass/styles.scss */
+.facets ul li {
+  border-bottom: 1px solid #e7e6e2;
+  padding-top: .5rem;
+  padding-bottom: .5rem;
+}
+
+/* line 159, ../sass/styles.scss */
+.applied-filters .badge {
+  font-weight: normal;
+}
+/* line 161, ../sass/styles.scss */
+.applied-filters .badge a {
+  color: white;
+}
+/* line 165, ../sass/styles.scss */
+.applied-filters li {
+  border-bottom: none !important;
+}
+
+/* 5. Images */
+/* line 172, ../sass/styles.scss */
 img {
   max-width: 100%;
 }
 
-/* line 148, ../sass/styles.scss */
+/* line 176, ../sass/styles.scss */
 .img-small {
   max-width: 20%;
 }
 
-/* line 152, ../sass/styles.scss */
+/* line 180, ../sass/styles.scss */
 .img-medium {
   max-width: 35%;
 }
 
-/* line 156, ../sass/styles.scss */
+/* line 184, ../sass/styles.scss */
 .img-large {
   max-width: 50%;
 }
 
-/* line 160, ../sass/styles.scss */
+/* line 188, ../sass/styles.scss */
 .img-small img,
 .img-medium img,
 .img-large img {
   max-width: 100%;
 }
 
-/* line 166, ../sass/styles.scss */
+/* line 194, ../sass/styles.scss */
 .img-small.pull-left,
 .img-medium.pull-left,
 .img-large.pull-left {
   padding: 0 2rem 1rem 0;
 }
 
-/* line 172, ../sass/styles.scss */
+/* line 200, ../sass/styles.scss */
 .img-small.pull-right,
 .img-medium.pull-right,
 .img-large.pull-right {
   padding: 0 0 1rem 2rem;
 }
 
-/* line 178, ../sass/styles.scss */
+/* line 206, ../sass/styles.scss */
 .img-thumbnail {
   margin-bottom: 10px;
 }
 
-/* line 182, ../sass/styles.scss */
+/* line 210, ../sass/styles.scss */
 caption,
 figcaption,
 .caption {
@@ -8972,19 +9003,19 @@ figcaption,
   color: #666;
 }
 
-/* line 190, ../sass/styles.scss */
+/* line 218, ../sass/styles.scss */
 figure {
   padding: .5rem;
   border: 1px solid #e7e6e2;
   margin: 2rem 0;
 }
-/* line 194, ../sass/styles.scss */
+/* line 222, ../sass/styles.scss */
 figure figcaption {
   margin-top: 1rem;
 }
 
-/* 4.1 Gallery */
-/* line 201, ../sass/styles.scss */
+/* 5.1 Gallery */
+/* line 229, ../sass/styles.scss */
 .gallery {
   margin-top: 2.5rem;
   margin-bottom: 1rem;
@@ -8992,24 +9023,31 @@ figure figcaption {
   clear: both;
 }
 
-/* 5. Jumbotron */
-/* line 209, ../sass/styles.scss */
+/* 6. Jumbotron */
+/* line 238, ../sass/styles.scss */
 .jumbotron {
   margin-top: 2rem;
 }
 
-/* Sidebar */
-/* line 215, ../sass/styles.scss */
+/* 7. Search */
+/* line 246, ../sass/styles.scss */
+.search-results ul li,
+.search-results ol li {
+  border-bottom: 1px solid #e7e6e2;
+}
+
+/* 8. Sidebar */
+/* line 253, ../sass/styles.scss */
 .sidebar {
   padding: 0 1rem 1rem;
 }
 
-/* line 219, ../sass/styles.scss */
+/* line 257, ../sass/styles.scss */
 .sidebar .nav li {
   border-bottom: 1px solid #e7e6e2;
 }
 
-/* line 223, ../sass/styles.scss */
+/* line 261, ../sass/styles.scss */
 .sidebar h3:first-child {
   margin-top: 1.875em;
 }
