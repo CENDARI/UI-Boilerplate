@@ -21,6 +21,7 @@
 	6.		Jumbotron
 	7.		Search
 	8.		Sidebar
+	9.		Custom media queries
 ***/
 
 /* 1. Globals */
@@ -105,6 +106,18 @@ footer p {
 .date {
 	font-size: 14px;
 	font-style: italic;
+}
+
+.icon-like {
+	background: lighten($brand-secondary, 30%);
+	color: white;
+	text-align: center;
+	font-size: 2em;
+	padding-top: 65px;
+	border-radius: 50%;
+	width: 180px;
+	height: 180px;
+	margin: 0 auto 2rem;
 }
 
 /* 1.2 Headings */
@@ -260,4 +273,33 @@ figure {
 
 .sidebar h3:first-child {
 	margin-top: 1.875em;
+}
+
+/* 9. Custom media queries */
+
+.equal .panel {
+	/* background: lighten($brand-secondary, 50%); */
+	padding: 1rem 2rem 3rem;
+	margin-bottom: 0;
+	border: 5px solid white;
+	&.secondary {
+		background: lighten($brand-secondary, 50%);
+	}
+	h2,
+	h3,
+	h4,
+	h5 {
+		text-align: center;
+	}
+}
+
+@media screen and (min-width: 768px) {
+	.equal {
+		flex-wrap: wrap;
+	}
+	.equal,
+	.equal > .content-body {
+	    display: -webkit-flex;
+	    display: flex;
+	}
 }
