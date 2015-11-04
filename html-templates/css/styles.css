@@ -8851,43 +8851,48 @@ footer p {
 }
 
 /* line 84, ../sass/styles.scss */
+.content-body img {
+  max-width: 100%;
+}
+
+/* line 88, ../sass/styles.scss */
 .blog-style li {
   border-bottom: 1px solid #eee;
   overflow: hidden !important;
   margin-top: 1rem;
   padding-bottom: 1rem;
 }
-/* line 90, ../sass/styles.scss */
+/* line 94, ../sass/styles.scss */
 .blog-style li h2,
 .blog-style li h4 {
   margin-top: 0;
 }
 
-/* line 96, ../sass/styles.scss */
+/* line 100, ../sass/styles.scss */
 .blog-style-thumb {
   padding-right: 10px;
   width: 20%;
   float: left;
 }
 
-/* line 102, ../sass/styles.scss */
+/* line 106, ../sass/styles.scss */
 .blog-style-excerpt {
   float: left;
   width: 80%;
 }
 
-/* line 107, ../sass/styles.scss */
+/* line 111, ../sass/styles.scss */
 .excerpt {
   font-size: 14px;
 }
 
-/* line 111, ../sass/styles.scss */
+/* line 115, ../sass/styles.scss */
 .date {
   font-size: 14px;
   font-style: italic;
 }
 
-/* line 116, ../sass/styles.scss */
+/* line 120, ../sass/styles.scss */
 .icon-like {
   background: #b9b5aa;
   color: white;
@@ -8901,7 +8906,7 @@ footer p {
 }
 
 /* 1.2 Headings */
-/* line 130, ../sass/styles.scss */
+/* line 134, ../sass/styles.scss */
 h1,
 h2,
 h3,
@@ -8912,109 +8917,109 @@ h6 {
 }
 
 /* 2. Colours */
-/* line 141, ../sass/styles.scss */
+/* line 145, ../sass/styles.scss */
 .celest {
   color: #88a2a9;
 }
 
-/* line 145, ../sass/styles.scss */
+/* line 149, ../sass/styles.scss */
 .bright-blue {
   color: #337ab7;
 }
 
-/* line 149, ../sass/styles.scss */
+/* line 153, ../sass/styles.scss */
 .gold {
   color: #6f695b;
 }
 
 /* 3. Dropdown forms */
-/* line 155, ../sass/styles.scss */
+/* line 159, ../sass/styles.scss */
 .drop-form {
   padding: .5em;
 }
 
-/* line 158, ../sass/styles.scss */
+/* line 162, ../sass/styles.scss */
 .drop-form * {
   margin: .5em 0;
 }
 
 /* 4. Facets and filters */
-/* line 164, ../sass/styles.scss */
+/* line 168, ../sass/styles.scss */
 .facets {
   margin: .5rem 0 1rem;
 }
-/* line 166, ../sass/styles.scss */
+/* line 170, ../sass/styles.scss */
 .facets a {
   display: block;
 }
-/* line 169, ../sass/styles.scss */
+/* line 173, ../sass/styles.scss */
 .facets ul li {
   border-bottom: 1px solid #e7e6e2;
   padding-top: .5rem;
   padding-bottom: .5rem;
 }
 
-/* line 177, ../sass/styles.scss */
+/* line 181, ../sass/styles.scss */
 .applied-filters .badge {
   font-weight: normal;
 }
-/* line 179, ../sass/styles.scss */
+/* line 183, ../sass/styles.scss */
 .applied-filters .badge a {
   color: white;
 }
-/* line 183, ../sass/styles.scss */
+/* line 187, ../sass/styles.scss */
 .applied-filters li {
   border-bottom: none !important;
 }
 
 /* 5. Images */
-/* line 190, ../sass/styles.scss */
+/* line 194, ../sass/styles.scss */
 img {
   max-width: 100%;
 }
 
-/* line 194, ../sass/styles.scss */
+/* line 198, ../sass/styles.scss */
 .img-small {
   max-width: 20%;
 }
 
-/* line 198, ../sass/styles.scss */
+/* line 202, ../sass/styles.scss */
 .img-medium {
   max-width: 35%;
 }
 
-/* line 202, ../sass/styles.scss */
+/* line 206, ../sass/styles.scss */
 .img-large {
   max-width: 50%;
 }
 
-/* line 206, ../sass/styles.scss */
+/* line 210, ../sass/styles.scss */
 .img-small img,
 .img-medium img,
 .img-large img {
   max-width: 100%;
 }
 
-/* line 212, ../sass/styles.scss */
+/* line 216, ../sass/styles.scss */
 .img-small.pull-left,
 .img-medium.pull-left,
 .img-large.pull-left {
   padding: 0 2rem 1rem 0;
 }
 
-/* line 218, ../sass/styles.scss */
+/* line 222, ../sass/styles.scss */
 .img-small.pull-right,
 .img-medium.pull-right,
 .img-large.pull-right {
   padding: 0 0 1rem 2rem;
 }
 
-/* line 224, ../sass/styles.scss */
+/* line 228, ../sass/styles.scss */
 .img-thumbnail {
   margin-bottom: 10px;
 }
 
-/* line 228, ../sass/styles.scss */
+/* line 232, ../sass/styles.scss */
 caption,
 figcaption,
 .caption {
@@ -9023,19 +9028,25 @@ figcaption,
   color: #666;
 }
 
-/* line 236, ../sass/styles.scss */
+/* line 240, ../sass/styles.scss */
 figure {
   padding: .5rem;
   border: 1px solid #e7e6e2;
   margin: 2rem 0;
 }
-/* line 240, ../sass/styles.scss */
+/* line 244, ../sass/styles.scss */
 figure figcaption {
   margin-top: 1rem;
 }
 
+/* line 249, ../sass/styles.scss */
+.placeholder {
+  border: 1px solid #fff;
+  margin-bottom: 1rem;
+}
+
 /* 5.1 Gallery */
-/* line 247, ../sass/styles.scss */
+/* line 256, ../sass/styles.scss */
 .gallery {
   margin-top: 2.5rem;
   margin-bottom: 1rem;
@@ -9044,36 +9055,36 @@ figure figcaption {
 }
 
 /* 6. Jumbotron */
-/* line 256, ../sass/styles.scss */
+/* line 265, ../sass/styles.scss */
 .jumbotron {
   margin-top: 2rem;
 }
 
 /* 7. Search */
-/* line 264, ../sass/styles.scss */
+/* line 273, ../sass/styles.scss */
 .search-results ul li,
 .search-results ol li {
   border-bottom: 1px solid #e7e6e2;
 }
 
 /* 8. Sidebar */
-/* line 271, ../sass/styles.scss */
+/* line 280, ../sass/styles.scss */
 .sidebar {
   padding: 0 1rem 1rem;
 }
 
-/* line 275, ../sass/styles.scss */
+/* line 284, ../sass/styles.scss */
 .sidebar .nav li {
   border-bottom: 1px solid #e7e6e2;
 }
 
-/* line 279, ../sass/styles.scss */
+/* line 288, ../sass/styles.scss */
 .sidebar h3:first-child {
   margin-top: 1.875em;
 }
 
 /* 9. Custom media queries */
-/* line 285, ../sass/styles.scss */
+/* line 294, ../sass/styles.scss */
 .equal .panel {
   padding: 1rem 2rem 3rem;
   margin-bottom: 0;
@@ -9081,29 +9092,29 @@ figure figcaption {
   border-radius: 0;
   box-shadow: none;
 }
-/* line 293, ../sass/styles.scss */
+/* line 302, ../sass/styles.scss */
 .equal .panel.secondary h3, .equal .panel.primary h3 {
   margin-top: .5em;
   margin-bottom: .5em;
   padding-bottom: .5em;
   border-bottom: 1px solid white;
 }
-/* line 300, ../sass/styles.scss */
+/* line 309, ../sass/styles.scss */
 .equal .panel.secondary {
   background: #e7e6e2;
 }
-/* line 303, ../sass/styles.scss */
+/* line 312, ../sass/styles.scss */
 .equal .panel.primary {
   background: #c3d0d4;
 }
 
 @media screen and (min-width: 768px) {
-  /* line 309, ../sass/styles.scss */
+  /* line 318, ../sass/styles.scss */
   .equal {
     flex-wrap: wrap;
   }
 
-  /* line 312, ../sass/styles.scss */
+  /* line 321, ../sass/styles.scss */
   .equal,
   .equal .panel,
   .content-body {
@@ -9111,13 +9122,13 @@ figure figcaption {
     display: flex;
   }
 
-  /* line 318, ../sass/styles.scss */
+  /* line 327, ../sass/styles.scss */
   .content-body {
     width: 100%;
     flex-direction: column;
   }
 
-  /* line 322, ../sass/styles.scss */
+  /* line 331, ../sass/styles.scss */
   .content-body p {
     flex: 1 0 auto;
   }

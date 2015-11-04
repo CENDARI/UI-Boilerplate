@@ -81,6 +81,10 @@ footer p {
 	color: $brand-secondary;
 }
 
+.content-body img {
+	max-width: 100%;
+}
+
 .blog-style li {
 	border-bottom: 1px solid #eee;
 	overflow: hidden !important;
@@ -240,6 +244,11 @@ figure {
 	figcaption {
 		margin-top: 1rem;
 	}
+}
+
+.placeholder {
+	border: 1px solid #fff;
+	margin-bottom: 1rem;
 }
 
 /* 5.1 Gallery */
